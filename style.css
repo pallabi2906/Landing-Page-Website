@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 80vw;
+}
+.navbar{
+    display:flex;
+}
+nav li{
+    list-style: none;
+    margin: 0px 12px;
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+}
+nav li a{
+    text-decoration: none;
+    color: rgb(132, 132, 230);
+}
+nav{
+    height: 67px;
+    align-items: center;
+}
+header div{
+    font-weight: bold;
+}
+.section1{
+    height: 50vh;
+}
+.topleft{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh; 
+}
+.heading{
+    margin-bottom: 23px;
+    font-family: 'Questrial', sans-serif;
+    color: rgb(132, 132, 230);
+}
+.clubName{
+    color: rgb(132, 132, 230);
+    font-family: 'Questrial', sans-serif;
+    font-size: 30px;
+}
+.topleft p{
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.btn{
+    padding: 4px 12px;
+    cursor: pointer;
+    background-color: #6060b9;
+    color: white;
+    border: 1px solid white;
+    border-radius: 6px;
+    font-family: 'Questrial', sans-serif;
+    font-size: 15px;
+}
+.btn:hover{
+    background-color: #9595b1;
+}
+.section2{
+    padding: 23px 0;
+}
+.topright{
+    display: flex;
+height: 50vh;
+justify-content: center;
+align-items: center;
+padding: 0px 36px;
+}
+.pricing{
+    text-align: center;
+    font-size: 3rem;
+    margin: 14px 0;
+    color: rgb(132, 132, 230);
+    font-family: 'Questrial', sans-serif;
+}
+.pricingParagrapgh{
+    padding: 7px 119px;
+    text-align: center;
+    margin:16px 0;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    min-width: 20vw;
+    border: 1px solid black;
+    margin: 4px 12px;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 12px;
+}
+.box h2{
+    padding: 12px 0;
+    font-size: 2rem;
+    font-family: 'Questrial', sans-serif;
+    color: rgb(132, 132, 230);
+}
+.box ul{
+    list-style: none;
+}
+.box ul li{
+    margin: 12px 2px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.highlighter{
+    font-size: 18px;
+    font-weight: bold;
+}
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section3 table{
+    width: 100%;
+    margin: 40px 0;
+    border-collapse: collapse;
+}
+.section3 table th{
+    width: 43px;
+    border-bottom: 1px solid black;
+    padding: 7px 0;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.section3 table tr{
+    border-bottom: 1px solid black;
+}
+.section3 table td{
+    border-bottom: 1px solid black;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.text-align{
+    text-align: center;
+}
+footer{
+    padding: 23px;
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+}
